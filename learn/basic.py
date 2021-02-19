@@ -203,7 +203,11 @@ def test_itr2():
 
 
 if __name__ == '__main__':
-    test_sort()
+    # 带下标遍历数组
+    array = [6, 66, 6666, 6666]
+    for index, item in enumerate(array):
+        print(index, item)
+    # test_sort()
 
 # 常用函数: str() len() type() range()
 # Python pass 是空语句，是为了保持程序结构的完整性。
@@ -223,3 +227,5 @@ if __name__ == '__main__':
 # ord(x )                 将一个字符转换为它的整数值
 # hex(x )                 将一个整数转换为一个十六进制字符串
 # oct(x )
+
+# 定义在函数内部的变量拥有一个局部作用域，定义在函数外的拥有全局作用域。
