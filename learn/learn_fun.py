@@ -35,6 +35,17 @@ def call_back(handler):
     print('\n>> call_back')
 
 
+def optional_param(*args):
+    # print(type(*args))
+    # print(type(args))
+    # m_print(*args)
+    print(args)
+
+
+def m_print(a, b, c):
+    print(a, b, c)
+
+
 if __name__ == '__main__':
     # 不定长参数 参数前加 *
     fun1(1, (6, 6, 6), 2, "str", 4)
@@ -51,5 +62,18 @@ if __name__ == '__main__':
     print('---------callback----')
     call_back(lambda a: print(a, 'hhh'))
     call_back(print)
+    optional_param([1,2])
 
 # python没有函数重载
+    # # 不定长参数 参数前加 *
+    # fun1(1, 2, "str", 4)
+    # # 关键词传参，可乱序传参
+    # fun2(name="123", age=19)
+    # # 默认参数
+    # fun2(age=19)
+    # # **args 代表传入的是字典
+    # fun_dic(0, a=2, b=3, c=4)
+    # fun_dic(0)
+    # # lambda
+    # sum1 = lambda a, b: print(a + b)
+    # sum1("sfsdf", "123123")
