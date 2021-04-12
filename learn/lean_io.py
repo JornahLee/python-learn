@@ -31,6 +31,13 @@ def file_op():
     # rmdir()
 
 
+# 判断文件或目录是否存在
+def file_test():
+    folder_name = 'imgs'
+    if not os.path.exists(folder_name):
+        os.mkdir(folder_name)
+
+
 if __name__ == '__main__':
     file_op()
 
