@@ -1,0 +1,190 @@
+2021-07-01 09:42:38.306  INFO 25148 ---  [ntainer#7-2-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 0,offset = 6265, key = null
+2021-07-01 09:42:38.328  INFO 25148 ---  [ntainer#7-2-C-1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:46}] to 192.168.10.36:27017 because there was a socket exception raised on another connection from this pool.
+2021-07-01 09:42:38.333  INFO 25148 ---  [ntainer#7-2-C-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:52}] to 192.168.10.36:27017
+2021-07-01 09:42:38.451  INFO 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:38
+2021-07-01 09:42:40.084  INFO 25148 ---  [ntainer#9-1-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 4,offset = 526, key = null
+2021-07-01 09:42:40.099  INFO 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:40
+2021-07-01 09:42:40.494  INFO 25148 ---  [ntainer#7-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 1,offset = 526, key = null
+2021-07-01 09:42:40.513  INFO 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:40
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#8-0-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:dac443fec4d242beaf83] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#6-0-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:4566a397417409e7a79d] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#6-3-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:06e1fc400a0a7a39269b] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210629120000REQUEST_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210629120000REPORTING_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210630120000REQUEST_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210630120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33801120210630120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33801120210630120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d34298120210629120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d34298120210629120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d38129720210629120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d38129720210629120000REPORTING_TIME
+2021-07-01 09:42:44.197 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171729820210629120000REQUEST_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171729820210629120000REPORTING_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171750720210630120000REQUEST_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171750720210630120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171778720210629120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171778720210629120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210629120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210629120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210630120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210630120000REPORTING_TIME
+2021-07-01 09:42:44.281  INFO 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:44
+2021-07-01 09:42:44.325  INFO 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:44
+2021-07-01 09:42:44.574 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210629120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210629120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210630120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210630120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210629120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210629120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210629120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630010000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630010000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210629120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REPORTING_TIME
+2021-07-01 09:42:45.100  INFO 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:45
+2021-07-01 09:42:38.306  INFO 25148 ---  [ntainer#7-2-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 0,offset = 6265, key = null
+2021-07-01 09:42:38.328  INFO 25148 ---  [ntainer#7-2-C-1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:46}] to 192.168.10.36:27017 because there was a socket exception raised on another connection from this pool.
+2021-07-01 09:42:38.333  INFO 25148 ---  [ntainer#7-2-C-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:52}] to 192.168.10.36:27017
+2021-07-01 09:42:38.451  INFO 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:38
+2021-07-01 09:42:40.084  INFO 25148 ---  [ntainer#9-1-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 4,offset = 526, key = null
+2021-07-01 09:42:40.099  INFO 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:40
+2021-07-01 09:42:40.494  INFO 25148 ---  [ntainer#7-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo-广告报表信息>>>consumers topic = vivo_ads_report_topic ,partition = 1,offset = 526, key = null
+2021-07-01 09:42:40.513  INFO 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es开始2021-07-01 09:42:40
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#8-0-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:dac443fec4d242beaf83] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#6-0-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:4566a397417409e7a79d] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:43.924 ERROR 25148 ---  [ntainer#6-3-C-1] com.alicp.jetcache.AbstractCache         : jetcache(RedisCache) GET error. key=[channel_vivo:06e1fc400a0a7a39269b] redis.clients.jedis.exceptions.JedisConnectionException:java.net.SocketException: Connection reset by peer: socket write error
+cause by java.net.SocketException:Connection reset by peer: socket write error
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210629120000REQUEST_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210629120000REPORTING_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210630120000REQUEST_TIME
+2021-07-01 09:42:44.130 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33800920210630120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33801120210630120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d33801120210630120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d34298120210629120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d34298120210629120000REPORTING_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d38129720210629120000REQUEST_TIME
+2021-07-01 09:42:44.131 ERROR 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_4566a397417409e7a79d38129720210629120000REPORTING_TIME
+2021-07-01 09:42:44.197 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171729820210629120000REQUEST_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171729820210629120000REPORTING_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171750720210630120000REQUEST_TIME
+2021-07-01 09:42:44.198 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171750720210630120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171778720210629120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171778720210629120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210629120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210629120000REPORTING_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210630120000REQUEST_TIME
+2021-07-01 09:42:44.199 ERROR 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_dac443fec4d242beaf83171786420210630120000REPORTING_TIME
+2021-07-01 09:42:44.281  INFO 25148 ---  [ntainer#6-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:44
+2021-07-01 09:42:44.325  INFO 25148 ---  [ntainer#8-0-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:44
+2021-07-01 09:42:44.574 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210629120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210629120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210630120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b4762320210630120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210629120000REQUEST_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210629120000REPORTING_TIME
+2021-07-01 09:42:44.575 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b7059920210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b35685620210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b39350320210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41520820210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b41535220210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47552320210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47556020210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b47623620210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210629120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210630120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b49992720210630120000REPORTING_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210629120000REQUEST_TIME
+2021-07-01 09:42:44.576 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b51007420210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210629120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630010000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630010000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52758120210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210629120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210629120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REPORTING_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REQUEST_TIME
+2021-07-01 09:42:44.577 ERROR 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : report:RS_06e1fc400a0a7a39269b52760920210630120000REPORTING_TIME
+2021-07-01 09:42:45.100  INFO 25148 ---  [ntainer#6-3-C-1] c.r.s.r.d.b.c.vivo.VivoReportsConsumers  : vivo广告报表>>>保存es结束2021-07-01 09:42:45
