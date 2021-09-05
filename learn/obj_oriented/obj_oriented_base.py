@@ -50,6 +50,7 @@ class Employee:
         print("Employee.__name__:", Employee.__name__)
         print("Employee.__module__:", Employee.__module__)
         print("Employee.__bases__:", Employee.__bases__)
+        # __dict__ 为类所有属性/字段的 字典
         print("Employee.__dict__:", Employee.__dict__)
         print("Name : ", self.name, ", Salary: ", self.salary)
 
