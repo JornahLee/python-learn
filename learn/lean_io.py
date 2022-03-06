@@ -82,6 +82,8 @@ def human_size(byte_size: int):
     gb = mb / 1024
     if gb < 1000:
         return '%.2f' % gb + ' gb'
+    tb = gb / 1024
+    return '%.2f' % tb + ' tb'
 
 
 def recurse_path(path: str, processor, cur_depth=0, max_depth=999):
@@ -115,6 +117,8 @@ if __name__ == '__main__':
     # test_walk()
     # file_operation()
     # print(human_size(1024 * 1099 * 1024))
-    read_text_file()
+    # read_text_file()
+    print(human_size(2306397437952))
+
 
     pass
