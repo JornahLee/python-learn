@@ -228,4 +228,10 @@ if __name__ == '__main__':
 # hex(x )                 将一个整数转换为一个十六进制字符串
 # oct(x )
 
+# 警告的原因，Shadows name 'xxx' from outer scope，使用main()函数去除警告
 # 定义在函数内部的变量拥有一个局部作用域，定义在函数外的拥有全局作用域。
+# 定义 main()函数
+# def main():
+#     pass
+# if __name__ == '__main__':
+#     main()

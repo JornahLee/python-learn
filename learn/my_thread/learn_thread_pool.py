@@ -1,5 +1,5 @@
 import time
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, wait, ALL_COMPLETED
 
 
 def show(*v, **kv) -> None:
@@ -7,10 +7,14 @@ def show(*v, **kv) -> None:
     for i in range(100):
         print('\n' + str(i))
     print('\n' + ">> show")
-    time.sleep(10)
+    time.sleep(1)
 
 
 if __name__ == '__main__':
     pool = ThreadPoolExecutor(20)
     pool.submit(show, 1, p=1)
-    pool.submit(lambda a: print(a), 100)
+    future = pool.submit(lambda a: print(a), 100)
+    pool.submit()
+    wait([future], return_when=ALL_COMPLETED)
+    print('?')
+    print(future.result())
